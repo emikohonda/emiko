@@ -277,6 +277,10 @@ html {
     transform: scale(1.15);
 }
 
+.description {
+    white-space: pre-line;
+}
+
 /* ===== 使用言語（タグ風） ===== */
 .modal-languages {
     margin: 16px 0;
@@ -540,8 +544,8 @@ html {
         padding: 20px 12px;
     }
 
-    .modal-content {
-        padding: 20px 12px;
+    .modal-content h3 {
+        font-size: 20px;
     }
 
     .modal-img {

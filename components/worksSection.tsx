@@ -27,7 +27,7 @@ export default function WorksSection() {
                 <div className="modal-backdrop" onClick={() => setSelected(null)}>
                     <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                         <h3>{selected.title}</h3>
-                        <p>{selected.description}</p>
+                        <p className="description">{selected.description}</p>
 
                         {/* 使用言語 */}
                         <div className="modal-languages">

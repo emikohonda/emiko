@@ -17,7 +17,8 @@ export const worksData: WorkItem[] = [
         category: 'GenbaNote',
         thumb: '/images/genbanote.png',
         image: '/images/genbanote01.png',
-        description: '建設業向け業務管理アプリ。スケジュール・請求書管理が可能。',
+        description: `業務管理アプリ。
+        スケジュール・取引先・外注先の管理が可能。`,
         url: '', // 仮
         languages: ['Next.js', 'Firebase', 'TypeScript', 'CSS'],
         gallery: [
@@ -32,17 +33,17 @@ export const worksData: WorkItem[] = [
         category: 'Nansore',
         thumb: '/images/nansore.png',
         image: '/images/nansore01.png',
-        description: '匿名で書き込めるBBS風掲示板。Firebase + Next.jsで構築。',
+        description: '匿名で書き込めるBBS風掲示板。',
         url: 'https://nansore.vercel.app/', // 仮
         languages: ['Next.js', 'Firebase', 'TypeScript', 'CSS'],
     },
     {
         id: 'aikanojo-shop',
-        title: 'AIかのじょ 通販',
+        title: 'AIかのじょ',
         category: 'AIkanojo',
         thumb: '/images/aigf.png',
         image: '/images/aigf01.png',
-        description: 'オリジナルグッズ通販サイト。シャボン玉背景付き。',
+        description: 'AIで生成した女の子達のオリジナルグッズの架空の通販サイト。',
         url: '', // 仮
         languages: ['Next.js', 'TypeScript', 'CSS'],
     },
@@ -52,7 +53,7 @@ export const worksData: WorkItem[] = [
         category: 'AmyComic',
         thumb: '/images/amy-comic.jpeg',
         image: '/images/amy-comic01.jpeg',
-        description: '一次創作メインのオリジナル漫画サイトです。Next.jsを使用しています。',
+        description: '一次創作メインの漫画サイト。',
         url: 'https://www.amy-comic.com/',
         languages: ['Next.js', 'Cloundinary', 'TypeScript', 'CSS'],
     },
