@@ -12,7 +12,7 @@ export default function HomePage() {
         <h1 className="hero-title">emiko&apos;s Portfolio.</h1>
         <p className="hero-lead">Webでつなぐ、楽しいものづくり。</p>
         <Link href='#works' className="cta-btn">
-          SEE MY WORKS
+          SEE MY WORKS👇
         </Link>
       </section>
 
