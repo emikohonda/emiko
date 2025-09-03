@@ -9,7 +9,7 @@ export default function HomePage() {
   return (
     <main className="home">
       <section id="home" className="section hero">
-        <h1 className="hero-title">emiko&apos;s Portfolio.</h1>
+        <h1 className="hero-title">emiko&apos;s Portfolio🫶</h1>
         <p className="hero-lead">Webでつなぐ、楽しいものづくり。</p>
         <Link href='#works' className="cta-btn">
           SEE MY WORKS
