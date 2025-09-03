@@ -31,7 +31,7 @@ export default function WorksSection() {
 
                         {/* 使用言語 */}
                         <div className="modal-languages">
-                            <h4>使用言語</h4>
+                            <h4>使用言語など</h4>
                             <ul>
                                 {selected.languages?.map((lang, i) => <li key={i}>{lang}</li>)}
                             </ul>
