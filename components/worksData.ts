@@ -19,7 +19,7 @@ export const worksData: WorkItem[] = [
         image: '/images/genbanote01.png',
         description: `業務管理アプリ。
         スケジュール・取引先・外注先の管理が可能。`,
-        url: '', // 仮
+        url: '',
         languages: ['Next.js', 'Firebase', 'TypeScript', 'CSS'],
         gallery: [
             '/images/genbanote01.png',
@@ -34,19 +34,19 @@ export const worksData: WorkItem[] = [
         thumb: '/images/nansore.png',
         image: '/images/nansore01.png',
         description: '匿名で投稿できるスレッド式掲示板。',
-        url: 'https://nansore.vercel.app/', // 仮
+        url: 'https://genbanote.vercel.app/', // 仮
         languages: ['Next.js', 'Firebase', 'TypeScript', 'CSS'],
     },
-    {
-        id: 'aikanojo-shop',
-        title: 'AIかのじょ',
-        category: 'AIkanojo',
-        thumb: '/images/aigf.png',
-        image: '/images/aigf01.png',
-        description: 'AIで生成した女の子達のオリジナルグッズの架空の通販サイト。',
-        url: '', // 仮
-        languages: ['Next.js', 'TypeScript', 'CSS'],
-    },
+    // {
+    //     id: 'aikanojo-shop',
+    //     title: 'AIかのじょ',
+    //     category: 'AIkanojo',
+    //     thumb: '/images/aigf.png',
+    //     image: '/images/aigf01.png',
+    //     description: 'AIで生成した女の子達のオリジナルグッズの架空の通販サイト。',
+    //     url: '',
+    //     languages: ['Next.js', 'TypeScript', 'CSS'],
+    // },
     {
         id: 'amy-comic',
         title: 'エイミーコミック',
