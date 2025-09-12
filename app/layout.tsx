@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     url: "/",               // metadataBase と結合されて絶対URL化
     siteName: ".emiko（Portfolio）",
     images: [
-      { url: "/ogp.png", width: 1200, height: 700, alt: ".emiko（Portfolio）" }
+      { url: "/emiko.png", width: 1200, height: 700, alt: ".emiko（Portfolio）" }
     ],
     locale: "ja_JP",
     type: "website",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: ".emiko（Portfolio）",
     description: ".emikoのポートフォリオサイトです。これまでに制作したWebサイトやアプリをまとめています。",
-    images: ["/ogp.png"],
+    images: ["/emiko.png"],
     creator: "@dot_emiko"
   },
 };
