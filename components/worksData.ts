@@ -33,7 +33,7 @@ export const worksData: WorkItem[] = [
         category: 'Nansore',
         thumb: '/images/nansore.png',
         image: '/images/nansore01.png',
-        description: '匿名で書き込めるBBS風掲示板。',
+        description: '匿名で投稿できるスレッド式掲示板。',
         url: 'https://nansore.vercel.app/', // 仮
         languages: ['Next.js', 'Firebase', 'TypeScript', 'CSS'],
     },
