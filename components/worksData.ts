@@ -19,7 +19,7 @@ export const worksData: WorkItem[] = [
         image: '/images/genbanote01.png',
         description: `業務管理アプリ。
         スケジュール・取引先・外注先の管理が可能。`,
-        url: '',
+        url: 'https://genbanote.vercel.app/',
         languages: ['Next.js', 'Firebase', 'TypeScript', 'CSS'],
         gallery: [
             '/images/genbanote01.png',
@@ -34,7 +34,7 @@ export const worksData: WorkItem[] = [
         thumb: '/images/nansore.png',
         image: '/images/nansore01.png',
         description: '匿名で投稿できるスレッド式掲示板。',
-        url: 'https://genbanote.vercel.app/', // 仮
+        url: 'https://nansore.vercel.app/', // 仮
         languages: ['Next.js', 'Firebase', 'TypeScript', 'CSS'],
     },
     // {
