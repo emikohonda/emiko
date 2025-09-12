@@ -5,6 +5,9 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
+
+  metadataBase: new URL('https://dot-emiko.vercel.app/'),
+
   title: ".emiko（Portfolio）",
   description: ".emikoのポートフォリオサイトです。これまでに制作したWebサイトやアプリをまとめています。",
   icons: {
@@ -15,6 +18,25 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/manifest.json",
+
+  openGraph: {
+    title: ".emiko（Portfolio）",
+    description: ".emikoのポートフォリオサイトです。これまでに制作したWebサイトやアプリをまとめています。",
+    url: "/",               // metadataBase と結合されて絶対URL化
+    siteName: ".emiko（Portfolio）",
+    images: [
+      { url: "/ogp.png", width: 1200, height: 700, alt: ".emiko（Portfolio）" }
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: ".emiko（Portfolio）",
+    description: ".emikoのポートフォリオサイトです。これまでに制作したWebサイトやアプリをまとめています。",
+    images: ["/ogp.png"],
+    creator: "@dot_emiko"
+  },
 };
 
 export default function RootLayout({ children }: {children: React.ReactNode}) {
