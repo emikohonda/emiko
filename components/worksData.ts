@@ -20,7 +20,7 @@ export const worksData: WorkItem[] = [
         description: `業務管理アプリ。
         スケジュール・取引先・外注先の管理が可能。`,
         url: 'https://genbanote.vercel.app/',
-        languages: ['Next.js', 'Firebase', 'TypeScript', 'CSS'],
+        languages: ['Next.js', 'TypeScript', 'CSS', 'Firebase'],
         gallery: [
             '/images/genbanote01.png',
             '/images/genbanote02.png',
@@ -35,7 +35,7 @@ export const worksData: WorkItem[] = [
         image: '/images/nansore01.png',
         description: '匿名で投稿できるスレッド式掲示板。',
         url: 'https://nansore.vercel.app/', // 仮
-        languages: ['Next.js', 'Firebase', 'TypeScript', 'CSS'],
+        languages: ['Next.js', 'TypeScript', 'CSS', 'Firebase'],
     },
     // {
     //     id: 'aikanojo-shop',
@@ -47,14 +47,14 @@ export const worksData: WorkItem[] = [
     //     url: '',
     //     languages: ['Next.js', 'TypeScript', 'CSS'],
     // },
-    {
-        id: 'amy-comic',
-        title: 'エイミーコミック',
-        category: 'AmyComic',
-        thumb: '/images/amy-comic.jpeg',
-        image: '/images/amy-comic01.jpeg',
-        description: '一次創作メインの漫画サイト。',
-        url: 'https://www.amy-comic.com/',
-        languages: ['Next.js', 'Cloundinary', 'TypeScript', 'CSS'],
-    },
+    // {
+    //     id: 'amy-comic',
+    //     title: 'エイミーコミック',
+    //     category: 'AmyComic',
+    //     thumb: '/images/amy-comic.jpeg',
+    //     image: '/images/amy-comic01.jpeg',
+    //     description: '一次創作メインの漫画サイト。',
+    //     url: 'https://www.amy-comic.com/',
+    //     languages: ['Next.js', 'Cloundinary', 'TypeScript', 'CSS'],
+    // },
 ];
