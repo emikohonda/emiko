@@ -37,16 +37,16 @@ export const worksData: WorkItem[] = [
         url: 'https://nansore.vercel.app/', // 仮
         languages: ['Next.js', 'TypeScript', 'CSS', 'Firebase'],
     },
-    // {
-    //     id: 'aikanojo-shop',
-    //     title: 'AIかのじょ',
-    //     category: 'AIkanojo',
-    //     thumb: '/images/aigf.png',
-    //     image: '/images/aigf01.png',
-    //     description: 'AIで生成した女の子達のオリジナルグッズの架空の通販サイト。',
-    //     url: '',
-    //     languages: ['Next.js', 'TypeScript', 'CSS'],
-    // },
+    {
+        id: 'aikanojo-shop',
+        title: 'AIかのじょ。（準備中）',
+        category: 'AIkanojo',
+        thumb: '/images/aigf.png',
+        image: '/images/aigf01.png',
+        description: 'AIで生成した女の子達のオリジナルグッズの架空の通販サイト。',
+        url: '',
+        languages: ['Next.js', 'TypeScript', 'CSS'],
+    },
     // {
     //     id: 'amy-comic',
     //     title: 'エイミーコミック',

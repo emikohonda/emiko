@@ -22,7 +22,7 @@ export default function HomePage() {
           <p>
             emikoのポートフォリオサイトへようこそ！<br />
             私が学んできた技術や経験をまとめております。<br />
-            Web制作、創作漫画サイト、掲示板アプリなど、<br />
+            Web制作、業務管理ツール、掲示板アプリなど、<br />
             趣味と実務の両面から「楽しく、心に届く」<br />
             ものづくりを目指しています。
           </p>
@@ -32,7 +32,7 @@ export default function HomePage() {
       <section id="works" className="section works">
         <div className="section-inner">
           <h2 className="section-title">Works</h2>
-          <p>業務管理ツール・趣味の漫画サイト・掲示板など、さまざまな制作物をご紹介しています。</p>
+          <p>業務管理ツール・掲示板など、さまざまな制作物をご紹介しています。</p>
           <WorksSection />
         </div>
       </section>
